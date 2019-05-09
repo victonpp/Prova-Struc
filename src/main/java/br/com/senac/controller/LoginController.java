@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import br.com.senac.dominio.Usuario;
-import br.com.senac.servico.LoginService;
+import br.com.senac.service.LoginService;
 
 @Controller
 public class LoginController {

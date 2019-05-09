@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import br.com.senac.dominio.Perfil;
-import br.com.senac.servico.PerfilService;
+import br.com.senac.service.PerfilService;
 
 @Controller
 @RequestMapping("/Perfil")

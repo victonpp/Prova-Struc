@@ -1,4 +1,4 @@
-package br.com.senac.servico;
+package br.com.senac.service;
 
 import java.util.List;
 import java.util.Optional;

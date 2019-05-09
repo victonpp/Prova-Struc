@@ -12,9 +12,9 @@ import org.springframework.web.servlet.ModelAndView;
 
 import br.com.senac.dominio.Perfil;
 import br.com.senac.dominio.Usuario;
-import br.com.senac.servico.ObjectNotFoundException;
-import br.com.senac.servico.PerfilService;
-import br.com.senac.servico.UsuarioService;
+import br.com.senac.service.ObjectNotFoundException;
+import br.com.senac.service.PerfilService;
+import br.com.senac.service.UsuarioService;
 
 @Controller
 @RequestMapping("/Usuario")
