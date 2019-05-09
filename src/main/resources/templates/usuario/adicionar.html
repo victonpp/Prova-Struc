@@ -18,7 +18,7 @@
 		<div class="card-header">
 			<strong>Cadastro de Usuários</strong>
 		</div>
-		<div class="container">
+		<div class="container" style="background-color:#bebebe">
 			<div class="card-body">
 				<form class="form-horizontal" th:object="${usuario}" th:action="@{/Usuario/salvar}" method="POST" style="margin: 10px">
 					<div class="form-group">
@@ -42,7 +42,7 @@
 						</fieldset>
 					</div>
 					<div align="center">
-						<button type="submit" class="btn btn-sm btn-primary">Salvar</button>
+						<button type="submit" class="btn btn-sm btn-primary" style="background-color:#28A745">Salvar</button>
 						<a th:href="@{/Usuario/listar}" class="btn btn-sm btn-default">Cancelar</a>
 					</div>
 				</form>
