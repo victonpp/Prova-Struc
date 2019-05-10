@@ -17,22 +17,31 @@
     background-color: #4169E1!important;
 }
 
+.avatar {
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
 </style>
 </head>
 
 <body>
 	<div class="container-fluid">
-		<div class="card-header" style="background-color:#28A745">
+		<div class="card-header" style="background-color:#4169e1">
 			<strong>LOGIN</strong>
 		</div>
 		<div class="container">
 			<div class="row mt-5">
-				<div class="col-4"></div>
-				<div class="col-4 pt-2 bg-info">
+				<div class="col-4"> </div>
+					<div class="col-4 pt-2 bg-info">
 					<div class="card-body">
+					<img src="https://banner2.kisspng.com/20180523/tha/kisspng-businessperson-computer-icons-avatar-clip-art-lattice-5b0508dc6a3a10.0013931115270566044351.jpg" alt="Avatar" class="avatar">
 						<form class="form-horizontal" th:object="${usuario}" th:action="@{/validar}" method="POST" style="margin: 10px">
 							<div class="form-group">
 								<fieldset>
+																			
 									<div class="input-group mb-3">
 										<div class="input-group-prepend">
 											<span class="input-group-text" id="basic-addon1"style="background:#28A745" ><strong>@</strong></span>
